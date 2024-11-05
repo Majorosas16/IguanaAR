@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="iguana.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="agx" poster="poster.webp" shadow-intensity="1.71" exposure="1.12" shadow-softness="1" auto-rotate camera-orbit="-3.057deg 84.94deg 263.4m" field-of-view="20.35deg">
+      </button><button class="Hotspot" slot="hotspot-2" data-position="-32.6814904191217m 14.37582760615656m 27.00382975789427m" data-normal="0.2625629756005925m 0.9370366844095714m 0.23026709689940536m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Su piel verde les ayuda a camuflarse en la vegetación</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="-43.55787216194226m 7.559543692952996m 40.273851433527156m" data-normal="0.18655349819556827m 0.18026923385183483m 0.9657643582352109m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Su cola es larga y delgada, con escamas dorsales afiladas</div>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  </body>
+</html>
