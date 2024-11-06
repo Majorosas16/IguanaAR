@@ -1,10 +1,12 @@
-<model-viewer src="iguana.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-85.23deg 73.09deg 326.7m" field-of-view="30deg" camera-target="0.6459m -1.677m 2.05m" min-camera-orbit="auto 61deg auto" max-camera-orbit="auto 87deg auto">
-    <button class="Hotspot" slot="hotspot-1" data-position="-57.01219473981353m -3.0913376416824443m 19.134414339657518m" data-normal="-0.3649221851977247m 0.909543175313611m -0.1989045273264326m" data-visibility-attribute="visible">
+<model-viewer src="model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1.28" shadow-softness="0.67" camera-orbit="137.6deg 73.47deg 215.1m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="1.4581593242600661m -2.439229907376209m 48.490960532778786m" data-normal="0.46210701282456124m 0.8712581621603439m 0.16542769891206457m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Su cola es larga y delgada, y está bordeada por escamas
+            dorsales</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-14.334734721415792m -7.46400593508352m 8.576479315258638m" data-normal="-0.06800028501854946m 0.9976438064184961m 0.009099272070346932m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Son muy inteligentes y pueden aprender de la
+            experiencia</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="5.3350106284715935m -1.7374776597712582m 19.807189958429568m" data-normal="0.7296146151931228m 0.672878112387982m 0.12205555770131023m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">Su piel verde les permite camuflarse en la vegetación</div>
-    </button><button class="Hotspot" slot="hotspot-2" data-position="33.01359190912299m 8.399719390072296m -28.211686877347162m" data-normal="-0.554004258978552m 0.39338766420999066m -0.7337066352984913m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Su cola es larga y delgada, y está bordeada por escamas dorsales</div>
-    </button><button class="Hotspot" slot="hotspot-3" data-position="-3.8375033779588463m 2.095505937839093m 42.046390055960856m" data-normal="-0.8283589930673183m 0.5511430765759927m 0.10031294904870423m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Son muy inteligentes y pueden aprender de la experiencia</div>
     </button>
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
